@@ -164,7 +164,6 @@ export default NextjsVideoPlayer;
 | `muted` | `boolean` | Should the video be muted | Collection default |
 | `loop` | `boolean` | Should the video loop | Collection default |
 | `thumbnail` | `string` | URL encoded thumbnail/poster URL | Asset default |
-| `drm_token` | `string` | DRM token for protected content | `null` |
 | `expires` | `number` | Token expiry time (epoch millis) | `null` |
 | `vast_tag_url` | `string` | URL encoded VAST tag URL for ads | `null` |
 | `start_high_res` | `boolean` | Start in highest resolution | `false` |
@@ -304,7 +303,7 @@ This repository includes several examples:
    - Ensure proper CORS settings
 
 3. **DRM content not working**
-   - Verify DRM token is valid and not expired
+   - Check the DRM credentials in DRM settings
    - Check browser DRM support
 
 ## 🤝 Contributing
