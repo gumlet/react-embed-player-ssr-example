@@ -33,19 +33,19 @@ const App = () => {
   return (
     <>
       <div style={{ padding: '10px' }}>
-        <button onClick={play}>Play</button>
-        <button onClick={pause}>Pause</button>
-        <button onClick={mute}>Mute</button>
-        <button onClick={unmute}>Unmute</button>
-        <button onClick={() => setVolume(50)}>Set volume to 50%</button>
-        <button onClick={() => setCurrentTime(2)}>Set time to 2 seconds</button>
-        <button onClick={() => setPlaybackRate(2)}>Set playback rate to 2x</button>
-        <button onClick={getPaused}>Get paused</button>
-        <button onClick={getMuted}>Get muted</button>
-        <button onClick={getVolume}>Get volume</button>
-        <button onClick={getDuration}>Get duration</button>
-        <button onClick={getCurrentTime}>Get current time</button>
-        <button onClick={getPlaybackRate}>Get playback rate</button>
+        <button type="button" onClick={play}>Play</button>
+        <button type="button" onClick={pause}>Pause</button>
+        <button type="button" onClick={mute}>Mute</button>
+        <button type="button" onClick={unmute}>Unmute</button>
+        <button type="button" onClick={() => setVolume(50)}>Set volume to 50%</button>
+        <button type="button" onClick={() => setCurrentTime(2)}>Set time to 2 seconds</button>
+        <button type="button" onClick={() => setPlaybackRate(2)}>Set playback rate to 2x</button>
+        <button type="button" onClick={getPaused}>Get paused</button>
+        <button type="button" onClick={getMuted}>Get muted</button>
+        <button type="button" onClick={getVolume}>Get volume</button>
+        <button type="button" onClick={getDuration}>Get duration</button>
+        <button type="button" onClick={getCurrentTime}>Get current time</button>
+        <button type="button" onClick={getPlaybackRate}>Get playback rate</button>
       </div>
 
       <div style={{ marginTop: '10px', padding: '10px' }}>
