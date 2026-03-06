@@ -1,28 +1,24 @@
 {
-  "name": "react16-ssr-gumlet",
+  "name": "react-embed-player-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sharetribe-scripts build && node updatePath.js",
-    "dev": "rm -rf build && sharetribe-scripts build && node updatePath.js && node server/server.js"
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@gumlet/react-embed-player": "^2.0.15",
-    "express": "^5.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.4",
-    "@babel/preset-env": "^7.27.2",
-    "@babel/preset-react": "^7.27.1",
-    "@babel/register": "^7.27.1",
-    "sharetribe-scripts": "^6.0.1"
+    "@biomejs/biome": "^2.4.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   },
   "browserslist": {
     "production": [
